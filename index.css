@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    position:fixed;
+    top:0;
+    left:0;
+    height:50px;
+    line-height:50px;
+    background-color:crimson;
+    text-align:centre;
+    width:100%;
+    }
+    
+ul li
+{
+    display:inline-block;
+    width:200px;
+    font-size:1.3rem;
+}
+    
+ul li a
+{
+    display:block;
+    color:lightgray;
+    /* CSS3 Animations */
+    transition: transform 3s ease-in-out;
+}
+
+ul li a:hover{
+    transform: skew(36deg,36deg);
+}
